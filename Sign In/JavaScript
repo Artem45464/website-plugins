@@ -1,0 +1,8 @@
+const form = document.getElementById('signinForm');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
+
+form.addEventListener('submit', function(event) {
+    // Add any validation or pre-submission logic here if necessary.
+    // For example, you can validate the email or password format.
+});
