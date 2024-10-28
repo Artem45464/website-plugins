@@ -52,13 +52,6 @@
         .form-group button:hover {
             background-color: #0056b3;
         }
-        .error {
-            color: red;
-            font-size: 14px;
-            margin-top: -10px;
-            margin-bottom: 10px;
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -79,15 +72,7 @@
         </form>
     </div>
 
-    <script>
-        const form = document.getElementById('signinForm');
-        const email = document.getElementById('email');
-        const password = document.getElementById('password');
-
-        form.addEventListener('submit', function(event) {
-            // Add any validation or pre-submission logic here if necessary.
-            // For example, you can validate the email or password format.
-        });
-    </script>
+    <!-- Link to external JavaScript file -->
+    <script src="signin.js"></script>
 </body>
 </html>
