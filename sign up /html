@@ -88,29 +88,7 @@
         </form>
     </div>
 
-    <script>
-        const form = document.getElementById('signupForm');
-        const password = document.getElementById('password');
-        const confirmPassword = document.getElementById('confirm-password');
-        const passwordError = document.getElementById('passwordError');
-
-        form.addEventListener('submit', function(event) {
-            if (password.value !== confirmPassword.value) {
-                event.preventDefault();
-                passwordError.style.display = 'block';
-            } else {
-                passwordError.style.display = 'none';
-            }
-        });
-
-        confirmPassword.addEventListener('keyup', function() {
-            if (password.value !== confirmPassword.value) {
-                passwordError.style.display = 'block';
-            } else {
-                passwordError.style.display = 'none';
-            }
-        });
-    </script>
+    <!-- Link to external JavaScript file -->
+    <script src="signup.js"></script>
 </body>
 </html>
-
